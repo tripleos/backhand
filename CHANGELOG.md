@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.25.3](https://github.com/tripleos/backhand/compare/v0.25.2...v0.25.3) - 2026-09-06
+
+### Other
+
+- Add error-strings feature
+- Report an error when an LZMA block is too large to decompress
+- Scope LZMA parameter cache per image and bound the search
+- Add SquashFS v4 with adaptive LZMA compression
+- Add v3 standard-LZMA kinds with swapped magic
+- Move adaptive LZMA decompression to a shared module
+- Merge pull request #806 from wcampbell0x2a/release-plz-2026-08-25T03-59-33Z
+
 ## [0.25.2](https://github.com/wcampbell0x2a/backhand/compare/v0.25.1...v0.25.2) - 2026-09-06
 
 ### `backhand`
